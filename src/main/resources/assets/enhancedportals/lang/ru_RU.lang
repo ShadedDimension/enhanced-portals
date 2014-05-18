@@ -1,0 +1,301 @@
+# Blocks
+tile.frame.frame.name=Каркас портала
+tile.frame.controller.name=Контроллер портала
+tile.frame.redstone.name=Красный интерфейс
+tile.frame.networkInterface.name=Сетевой интерфейс
+tile.frame.dialDevice.name=Устройство набора
+tile.frame.programInterface.name=Программируемый интерфейс
+tile.frame.upgrade.name=Модуль «Манипулятор»
+tile.frame.fluid.name=Модуль «Транспортировка жидкости»
+tile.frame.item.name=Модуль «Транспортировка предметов»
+tile.frame.energy.name=Модуль «Транспортировка энергии»
+tile.portal.name=Портал
+tile.dbs.name=Стабилизатор пространственного моста
+tile.dbs_empty.name=Стабилизатор пространственного моста (Пустой)
+tile.decor_dbs.name=Стабилизатор
+tile.decor_frame.name=Окаймленный кварц
+
+# Block Misc
+ep3.block.portalFramePart=Часть каркаса портала
+ep3.block.multiblockStructure=Мульти-блочная структура
+ep3.block.dbsSize=2x3x2 на 2x3x256
+ep3.block.decorativeBlock=Декоративный блок
+
+# Items
+item.wrench.name=Гаечный ключ
+item.nanobrush.name=Нано-кисть
+item.glasses.name=Очки
+item.location_card.name=Карта расположения
+item.blank_portal_module.name=Пустой модуль портала
+item.blank_upgrade.name=Пустое улучшение
+item.guide.name=Руководство по EnhancedPortals
+
+# In-place upgrades
+item.upgrade.redstone.name=Улучшение «Красный интерфейс»
+item.upgrade.networkInterface.name=Улучшение «Сетевой интерфейс»
+item.upgrade.dialDevice.name=Улучшение «Устройство набора»
+item.upgrade.programInterface.name=Улучшение «Программируемый интерфейс»
+item.upgrade.upgrade.name=Улучшение «Манипулятор»
+item.upgrade.fluid.name=Улучшение «Транспортировка жидкости»
+item.upgrade.item.name=Улучшение «Транспортировка предметов»
+item.upgrade.energy.name=Улучшение «Транспортировка энергии»
+
+# Upgrades
+item.portal_module.0.name=Уничтожитель частиц
+item.portal_module.0.desc=Убирает частицы
+item.portal_module.1.name=Радужные частицы
+item.portal_module.1.desc=Каждая частица будет иметь случайный цвет
+item.portal_module.2.name=Глушитель портала
+item.portal_module.2.desc=Заглушает портал
+item.portal_module.3.name=Импульс
+item.portal_module.3.desc=Сущности сохраняют свой импульс
+item.portal_module.4.name=Маскировка портала
+item.portal_module.4.desc=Делает портал полностью невидимым
+item.portal_module.5.name=Затемнитель частиц
+item.portal_module.5.desc=Частицы случайно появляются светлее или темнее
+item.portal_module.6.name=[Устаревшее]
+item.portal_module.6.desc=Я больше ничего не делаю.
+item.portal_module.7.name=Лёгкое падение
+item.portal_module.7.desc=Убирает урон от падения
+
+# Creative Tab
+itemGroup.enhancedportals=EnhancedPortals 3
+
+# GUI DBS
+ep3.gui.dimensionalBridgeStabilizer=Стабилизатор пространственного моста
+ep3.gui.information=Информация
+ep3.gui.activePortals=Активные порталы
+ep3.gui.redstoneFluxPerSecond=РФ/с
+ep3.gui.redstoneFluxShort=РФ
+ep3.gui.instability=Невидимость
+ep3.gui.powerModeFree=Режим: Свободный
+ep3.gui.powerModeNormal=Режим: Обычный
+ep3.gui.powerModeRisky=Режим: Рискованный
+ep3.gui.powerModeUnstable=Режим: Нестабильный
+ep3.gui.powerModeUnpredictable=Режим: Непредсказуемый
+
+# RF Tab
+ep3.tab.redstoneFlux=Энергия
+ep3.tab.redstoneFlux.maxPower=Макс. энергия:
+ep3.tab.redstoneFlux.storedPower=Накопленная энергия:
+ep3.tab.redstoneFlux.powerUsage=Потребляемая энергия:
+
+# GUI Portal Controller
+ep3.gui.portalController=Контроллер портала
+ep3.gui.uniqueIdentifier=Уникальный идентификатор
+ep3.gui.public=Публичный
+ep3.gui.private=Личный
+ep3.gui.noUidSet=UID не установлен
+
+# Private/Public Tip Tab
+ep3.tab.privatePublic=Личный или публичный?
+ep3.tab.privatePublic.info=<6>Публичный:<0> Разрешает все соединения<NL><6>Личный:<0> Разрешает подключения только с тем же СПМ
+
+# Glyphs Tab
+ep3.tab.glyphs=Символы
+ep3.tab.glyphs.info=Информация о символе!
+
+# GUI Dialler
+ep3.gui.dialDevice=Устройство набора
+ep3.gui.storedIdentifiers=Сохранённые идентификаторы
+ep3.gui.terminate=Завершить
+ep3.gui.dial=Набрать
+ep3.gui.identifierCannotBeBlank=Идентификатор не может быть пустым
+ep3.gui.name=Имя
+ep3.gui.identifierName=Имя идентификатора
+ep3.gui.manualEntry=Ручной ввод
+ep3.gui.delete=Удалить
+ep3.gui.edit=Выход
+
+# GUI Dial Tab
+ep3.tab.dialling=Устройство набора
+ep3.tab.dialling.info=// TODO<NL>Can hold shift to swap the edit button to remove.
+
+# GUI Texture
+ep3.gui.customIcon=Нестандартная иконка
+ep3.gui.facade=Фасад
+ep3.gui.frame=Каркас
+ep3.gui.portal=Портал
+ep3.gui.particle=Частицы
+ep3.gui.colour=Цвет
+ep3.gui.red=Красный
+ep3.gui.green=Зелёный
+ep3.gui.blue=Синий
+ep3.gui.textures=Текстуры
+
+# Colour Tip Tab
+ep3.tab.colourTip=Неверные цвета?
+ep3.tab.colourTip.info=Цвета добавляются смешиванием цветов, не по волшебству. Если Вы начинаете с жёлтой текстуры и добавляете бирюзу, Вы получите зелёную. Чтобы исправить это, используйте чаще белую/серую гамму, основанную на текстуре, которую Вы нашли. 
+
+# Custom Frame Textures
+ep3.tab.frameCustomTexture=Нестандартная текстура
+ep3.tab.frameCustomTexture.info=Вы можете разместить нестандартные текстуры каркаса в пакет ресурсов, которые будут использоваться здесь.
+
+# GUI Module Manipulator
+ep3.gui.moduleManipulator=Модуль «Манипулятор»
+ep3.gui.modules=Модули портала
+
+# GUI Network Interface
+ep3.gui.networkInterface=Сетевой интерфейс
+ep3.gui.networkIdentifier=Сетевой идентификатор
+ep3.gui.networkInformation=Сетевая информация
+ep3.gui.networkedPortals=Сетевые порталы
+ep3.gui.notSet=Не указан
+
+# GUI Programmable Interface
+ep3.gui.programmableInterface=Программируемый интерфейс
+ep3.gui.errorLog=Лог ошибки
+ep3.gui.compile=Скомпилировать
+
+# GUI Redstone
+ep3.gui.redstoneInterface=Красный интерфейс
+
+ep3.gui.input=Ввод
+ep3.gui.createPortalOnSignal=Создавать портал по сигналу
+ep3.gui.removePortalOnSignal=Убирать портал по сигналу
+ep3.gui.createPortalOnPulse=Создавать портал по импульсу
+ep3.gui.removePortalOnPulse=Убирать портал по импульсу
+ep3.gui.dialStoredIdentifier=Набрать конкретный идентификатор
+ep3.gui.dialRandomIdentifier=Набрать случайный идентификатор
+ep3.gui.dialStoredIdentifier2=Набрать конкретный идентификатор (2)
+ep3.gui.dialRandomIdentifier2=Набрать случайный идентификатор (2)
+
+ep3.gui.output=Вывод
+ep3.gui.portalCreated=Портал создан
+ep3.gui.portalRemoved=Портал убран
+ep3.gui.portalActive=Портал активен
+ep3.gui.portalInactive=Портал неактивен
+ep3.gui.entityTeleport=Сущность дотрагивается до портала
+ep3.gui.playerTeleport=Игрок дотрагивается до портала
+ep3.gui.animalTeleport=Животное дотрагивается до портала
+ep3.gui.monsterTeleport=Монстр дотрагивается до портала
+
+# GUI General
+ep3.gui.initialized=Инициализировано
+ep3.gui.glyphs=Символы
+ep3.gui.cancel=Отмена
+ep3.gui.save=Сохранить
+ep3.gui.reset=Сбросить
+ep3.gui.clear=Очистить
+ep3.gui.random=Случайный
+ep3.gui.add=Добавить
+ep3.gui.accept=Принять
+ep3.gui.clickToModify=Нажмите, чтобы изменить
+ep3.gui.uidInUse=Этот UID уже используется
+
+# GUI ITM
+ep3.gui.transferItem=Модуль «Транспортировка предметов»
+
+# GUI FTM
+ep3.gui.transferFluid=Модуль «Транспортировка жидкости»
+
+# GUI ETM
+ep3.gui.transferEnergy=Модуль «Транспортировка энергии»
+
+# GUI Transfer
+ep3.gui.sending=Отправка
+ep3.gui.receiving=Получение
+
+# Errors
+ep3.error=[Ошибка] 
+ep3.error.noUidSet=Вы должны установить уникальный идентификатор, прежде чем сделать это
+ep3.error.voidLinkCard=Эта карта больше не соединена с действительным стабилизатором пространственного моста
+ep3.error.receivingPortalNotInitialized=Принимающий портал не был инициализирован
+ep3.error.sendingPortalNotInitialized=Отправляющий портал не был инициализирован
+ep3.error.stabilizerNotFound=СПМ не может быть найден. Вставьте новую, действующую карту расположения, чтобы продолжить
+ep3.error.receivingPortalNoDialler=Вы не можете набрать портал, который не имеет устройство набора
+ep3.error.sendingPortalNoDialler=Вы не можете набирать из портала, который не имеет устройство набора
+ep3.error.uniqueIdentifierNotSet=Вы не можете набирать без установки уникального идентификатора
+ep3.error.networkIdentifierNotSet=Вы не можете набирать без установки сетевого идентификатора
+ep3.error.dialDeviceNotFound=Вы не можете набирать без устройства набора
+ep3.error.diallingPortalAlreadyActive=Вы не можете набирать из портала, который уже имеет активное соединение
+ep3.error.receivingPortalAlreadyActive=Вы не можете набрать портал, который уже активен
+ep3.error.notEnoughPowerToStart=Не хватает энергии в СПМ, для создания соединения
+ep3.error.maxedConnectionLimit=СПМ имеет слишком много активных соединений
+ep3.error.cannotDialDiallingPortal=Вы не можете набрать портал, из которого Вы уже набираете
+ep3.error.diallingPortalNotFound=Не удалось найти портал, из которого Вы набираете
+ep3.error.receivingPortalNotFound=Не удалось найти принимающий портал
+ep3.error.notOnSameStabilizer=Порталы не подключены к тому же СПМ
+ep3.error.sendingPortalFailedToCreatePortal=Отправляющему контроллеру портала не удалось создать портал
+ep3.error.receivingPortalFailedToCreatePortal=Принимающему контроллеру портала не удалось создать портал
+ep3.error.noPortalWithThatIdentifierReceiving=Не удалось найти портал с этим UID
+ep3.error.noPortalWithThatIdentifierSending=Не удалось найти отправляющий портал с этим UID (Как Вы набрали...? o_O)
+ep3.error.failedToTransfer=Принимающий портал слишком мал
+ep3.error.multiplePortalControllers=Вы не можете иметь несколько контроллеров портала
+ep3.error.multipleProgram=Вы не можете иметь несколько программируемых интерфейсов
+ep3.error.multipleMod=Вы не можете иметь несколько модулей «Манипулятор»
+ep3.error.dialAndNetwork=Вы не можете иметь устройство набора и сетевой интерфейс в одной и той же структуре портала
+ep3.error.portalCouldNotBeCreatedHere=Портал не может быть создан в этом месте
+
+# Success
+ep3.success=[Успех] 
+ep3.success.create=Портал инициализирован
+ep3.success.reconfigure=Портал изменён
+
+# Guide
+ep3.gui.mainMain=Добро пожаловать!
+ep3.gui.mainMain.information=Это руководство разделено на разделы, Вы найдёте категории слева. Когда вы выбрали категорию, то её содержимое будет отображаться в новых вкладках справа.<N><N>Последнее обновление: Бета 4.
+
+ep3.gui.mainBlocks=Блоки
+ep3.gui.mainBlocks.information=Используйте вкладки справа, чтобы увидеть информацию о конкретном блоке.
+
+ep3.gui.mainItems=Предметы
+ep3.gui.mainItems.information=Используйте вкладки справа, чтобы увидеть информацию о конкретном предмете.
+
+ep3.gui.information=Информация
+ep3.gui.crafting=Создание
+
+ep3.gui.blockFrame=Каркас портала
+ep3.gui.blockFrame.information=Portal Frames are used to contain the minor instabilities of the portal to allow portals to function correctly. Without them, the portal cannot take shape. <N><N>The Portal Frames must completely contain the portal on four opposite sides. You can arrange portals in many different shapes and sizes, varying from the standard vertical portal, to horizontal portals or even diagonally.<N><N>Portal Frames are also used as a base for the special frame blocks, many of them have GUIs you can open by activating them with a wrench. If you activate the basic Portal Frame with a wrench, it will open up the connected Portal Controller's GUI.
+
+ep3.gui.blockController=Контроллер портала
+ep3.gui.blockController.information=Portal Controllers are the main block in the portal structure, its in control of most of the functions of each portal, and as such, you can only have one per portal structure.<N><N>You can destroy/replace any of the other frame blocks, but as long as you do not replace the Portal Controller, it will retain all of its customizations.<N><N>If you interrupt the portal structure by removing a block, or placing a new frame block next to a formed structure, you can reform the portal structure by activating the Portal Controller with a wrench. You can also update its connected Dimensional Bridge Stabilizer by activating it with another Location Card.
+
+ep3.gui.blockRedstoneInterface=Красный интерфейс
+ep3.gui.blockRedstoneInterface.information=Redstone Interfaces are the only blocks that will directly interact with Redstone signals, with the exception of the Biometric Identifier.<N><N>There are two different modes, Input and Output. On Input the Redstone Interface is programmed to receive Redstone signals and complete the specified task. All of these tasks involve interacting with portal connections, you can set it to create/remove portals, or dial specific Unique Identifiers.<N><N>The other mode is Output, where the Redstone Interface will emit Redstone signals based on the Portal state, or whether or not an entity is touching it.
+
+ep3.gui.blockNetworkInterface=Сетевой интерфейс
+ep3.gui.blockNetworkInterface.information=The Network Interface is the most basic form of networking multiple portals together. Simply set a Unique ID for the portal, then activate this block with a wrench to set a Network ID. Any portals with the same Network ID will be connected to each other, entering an active portal will take you to the next portal in the sequence.<N><N>A Network Interface is not the only thing required to actually create the portal, you will also need a Redstone Interface connected to create/terminate the connection.<N><N>You can only have one of these in a Portal structure as long as it does not already contain a Dialling Device.
+
+ep3.gui.blockDiallingDevice=Устройство набора
+ep3.gui.blockDiallingDevice.information=Dialling Devices are an upgrade to the Network Interface, they allow you to dial directly to a specific portal without the requirement of setting up a network. In addition, you do not need a Redstone Interface connected to dial, and you can even dial to portals that do not have a Dialling Device or Network Interface. You cannot dial to portals that have Network Interfaces.<N><N>Unlike other special Portal Frame parts, you do not need the Glasses equipped to see its icon, you also do not need to use a wrench to open its GUI.<N><N>You can only have one of these in a Portal structure as long as it already does not contain a Network Interface.
+
+ep3.gui.blockBiometric=Биометрический идентификатор
+ep3.gui.blockBiometric.information=Biometric Interfaces are effectively filters. You can filter specific players or entities to be allowed or disallowed through this portal.<N><N>You will need to put an Identification Card into the bottom left slot to add its stored entries to the list. From there, clicking on the name of the entry will toggle it between allowed/disallowed, and the GUI is self explanatory.<N><N>Elements lower on the list will overwrite those that come before it, meaning if you have 'Animals' disallowed at the top, and 'Pig' enabled below that, pigs are allowed. Swap them around and all animals aren't allowed, even pigs.<N><N>You can only have one of these in a Portal structure.
+
+ep3.gui.blockModule=Модуль «Манипулятор»
+ep3.gui.blockModule.information=Модуль «Манипулятор» хранит все модули портала. Просто откройте интерфейс гаечным ключом и положите модули внутрь.<N><N>Вы можете иметь только один модуль «Манипулятор» в структуре портала.
+
+ep3.gui.blockDBS=СПМ
+ep3.gui.blockDbs=Стабилизатор пространственного моста
+ep3.gui.blockDbs.information=The Dimensional Bridge Stabilizer is responsible for creating and maintaining a wormhole between two points in space, allowing for instantaneous transportation.<N><N>You must place the component blocks in a 3x2x2 or 3x3x2 block, and then use a wrench on it to form the structure. You can also make the structure taller to gain additional simultaneous connections, and increase its Redstone Flux power capacity.<N><N>For every row you give it, you will gain an extra 15,000 RF and one more connection (two portals). However, if you made it 3x3 you will gain an extra 22,500 RF capacity per row.<N><N>The Dimensional Bridge Stabilizer requires a lot of power, and will request 10,000 RF every second (500RF per tick). If it cannot get that amount of power from its storage, it will attempt to try to preserve the connection for as long as possible, though this will make the portal increasingly unstable to the point where the Dimensional Bridge Stabilizer is forced to terminate the connection, before any damage occurs.
+
+ep3.gui.blockDecoration=Декоративные блоки
+ep3.gui.blockDecoration.information=Два декоративных блока используют ту же текстуру, что и каркасы портала и стабилизаторы пространственного моста.<N><N>Они точно такие же, но они не "сущности", поэтому они не будут соединяться с их реальными аналогами.
+
+ep3.gui.itemGlasses=Очки
+ep3.gui.itemGlasses.information=While wearing the glasses, you will be able to see things you wouldn't usually be able to see. The differences between the special frame blocks will become a lot more obvious and easier to differentiate. They also have the same durability and strength as a leather helmet.
+
+ep3.gui.itemWrench=Гаечный ключ
+ep3.gui.itemWrench.information=Гаечный ключ является инструментом, который открывает каждый интерфейс, за исключением стабилизатора пространственного моста и устройства набора.<N><N>Вы можете демонтировать все блоки портала, присев и нажав ПКМ по ним. Это мгновенно снимает блок и сбрасывает его на землю.<N><N>Этот гаечный ключ совместим с Buildcraft и любой Buildcraft-совместимый ключ будет работать вместо него.
+
+ep3.gui.itemNanobrush=Нано-кисть
+ep3.gui.itemNanobrush.information=The Nanobrush is used to change the colour and texture of the particles, portal frame and portals.<N><N>There are a few shortcuts when selecting textures, you can right click on the Portal Frame to open the GUI at the Portal Frame texture screen. Right clicking on the portal will open it at the portal texture screen. Sneak right clicking on the portal will open it on the particles screen.
+
+ep3.gui.itemLocationCard=Карта расположения
+ep3.gui.itemLocationCard.information=Карта расположения должна сначала быть размещена внутрь, образованного стабилизатором пространственного моста, слота. Как только стабилизатор пространственного моста установил свою информацию о местоположении на карту, Вы можете взять карту и использовать её на контроллере портала, чтобы соединить его с СПМ.
+
+ep3.gui.itemSynchronizer=Синхронизатор
+ep3.gui.itemSynchronizer.information=The Synchronizer will allow you to duplicate the Dialling Device data to other Dialling Devices through an active portal connection.<N><N>Simply create a connection between two portals using a Dialling Device, then providing the receiving portal has a Dialling Device, you can right click on the Dialling Device and it will copy its data to the receiving portal's dialling device.
+
+ep3.gui.itemIdCard=Идентификационная карта
+ep3.gui.itemIdCard.information=Идентификационные карты хранят информацию о сущностях, для сохранения её в биометрический идентификатор.<N><N>Они должны быть вставлены в ручной сканер, чтобы данные были записаны на них, потом они должны быть помещены в левой слот биометрического идентификатора, чтобы они были добавлены в список.
+
+ep3.gui.itemScanner=Ручной сканер
+ep3.gui.itemScanner.information=The Handheld Scanner writes entity data onto Identification Cards. Unwritten Identification Cards go into the slot on the left, and written ones come out on the right.<N><N>The Handheld Scanner requires Redstone Flux power, and will drain 50RF per write operation, regardless of the amount of data it writes to the card. It writes the data to the card when you open up the GUI, to have multiple entities on the same card, don't open the GUI until you're done scanning.<N><N>You can scan entities by left clicking on them and you can scan yourself by sneak right clicking.
+
+ep3.gui.itemPortalModules=Модули портала
+ep3.gui.itemPortalModules.information=Модули портала - это улучшения, которые непосредственно влияют на портал или каркас портала. Они должны быть вставлены в модуль «Манипулятор», для функционирования.
+
+ep3.gui.itemUpgrades=Улучшения
+ep3.gui.itemUpgrades.information=Улучшения позволяют изменять основные каркасы портала в особые варианты без замены блока. Кроме того, они не будет нарушать портал, так что Вы сможете применить их во время работы портала без реформирования структуры портала.<N><N>Рецепты создания в точности такие же, замена каркаса портала на пустое улучшение.
