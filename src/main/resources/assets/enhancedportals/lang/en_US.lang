@@ -131,10 +131,6 @@ ep3.tab.colourTip.info=Colours are added by colour multiplication, not by magic.
 ep3.tab.frameCustomTexture=Custom Texture
 ep3.tab.frameCustomTexture.info=You can place custom frame textures in a resource pack to be usable here.
 
-# Custom Frame Textures
-ep3.tab.portalCustomTexture=Custom Texture
-ep3.tab.portalCustomTexture.info=You can place custom portal textures in a resource pack to be usable here.
-
 # GUI Module Manipulator
 ep3.gui.moduleManipulator=Module Manipulator
 ep3.gui.modules=Portal Modules
