@@ -334,11 +334,6 @@ public class EntityManager
             config.syncPlayerInventory(player);
             
             // Instate any potion effects the player had when teleported.
-            /*Iterator potion = player.getActivePotionEffects().iterator();
-            while (potion.hasNext())
-            {
-                player.playerNetServerHandler.sendPacket(new S1DPacketEntityEffect(player.getEntityId(), (PotionEffect) potion.next()));
-            }*/
             for (Iterator<PotionEffect> potion = player.getActivePotionEffects().iterator(); potion.hasNext();) {
             	player.playerNetServerHandler.sendPacket(new S1DPacketEntityEffect(player.getEntityId(), (PotionEffect) potion.next()));
             }
@@ -396,8 +391,10 @@ public class EntityManager
         else if (entity instanceof EntityPlayer)
         {
             EntityPlayerMP player = (EntityPlayerMP) entity;
+        	// The actual transporting.
             player.rotationYaw = yaw;
             player.setPositionAndUpdate(x, y, z);
+            // For the momentum module.
             handleMomentum(player, touchedPortalType, exitPortalType, yaw, keepMomentum);
             player.worldObj.updateEntityWithOptionalForce(player, false);
 
@@ -422,7 +419,7 @@ public class EntityManager
 
             // Set position, momentum of new entity at the other portal.
             if (newEntity != null)
-            { 
+            {
             	handleMomentum(newEntity, touchedPortalType, exitPortalType, yaw, keepMomentum);
             	newEntity.setLocationAndAngles(x, y, z, yaw, entity.rotationPitch);
             	newEntity.forceSpawn = true;
