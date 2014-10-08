@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.EntityLivingBase;
@@ -313,6 +314,7 @@ public class EntityManager
             EntityPlayerMP player = (EntityPlayerMP) entity;
             MinecraftServer server = player.mcServer;
             ServerConfigurationManager config = server.getConfigurationManager();
+            int oldDimension = player.dimension;
 
             player.closeScreen();
             player.dimension = enteringWorld.provider.dimensionId;
@@ -342,7 +344,7 @@ public class EntityManager
             checkInstabilityEffects(entity,instability);
 
             player.playerNetServerHandler.sendPacket(new S1FPacketSetExperience(player.experience, player.experienceTotal, player.experienceLevel));
-            // GameRegistry.onPlayerChangedDimension(player); // TODO
+            FMLCommonHandler.instance().firePlayerChangedDimensionEvent(player, oldDimension, player.dimension);
 
             setEntityPortalCooldown(player);
             return player;
