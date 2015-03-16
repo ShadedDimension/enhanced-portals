@@ -1,0 +1,320 @@
+# Blocks
+tile.frame.frame.name=Châssis de portail
+tile.frame.controller.name=Contrôleur de portail
+tile.frame.redstone.name=Interface de redstone
+tile.frame.network_interface.name=Interface réseau
+tile.frame.dial_device.name=Appareil de numérotation
+tile.frame.program_interface.name=Interface programmable
+tile.frame.upgrade.name=Manipulateur de module
+tile.frame.fluid.name=Module de transfert de fluide
+tile.frame.item.name=Module de transfert d'objet
+tile.frame.energy.name=Module de transfert d'énergie
+tile.portal.name=Portail
+tile.dbs.name=Stabilisateur de pont dimensionnel
+tile.dbs_empty.name=Stabilisateur de pont dimensionnel (vide)
+tile.decor_dbs.name=Métal infusé des limbes
+tile.decor_frame.name=Quartz bordé
+
+# Block Misc
+enhancedportals.block.portalFramePart=Partie de châssis de portail
+enhancedportals.block.multiblockStructure=Structure multiblocs
+enhancedportals.block.dbsSize=2x3x2 à 2x3x256
+enhancedportals.block.decorativeBlock=Bloc décoratif
+
+# Items
+item.wrench.name=Clé
+item.nanobrush.name=Brosse nano
+item.glasses.name=Lunettes
+item.location_card.name=Carte de localisation
+item.blank_portal_module.name=Module de portail vierge
+item.blank_upgrade.name=Upgrade vierge
+item.manual.name=Enhanced Portals : Tunnelage de trous de ver
+
+# In-place upgrades
+item.upgrade.redstone.name=Upgrade d'interface de redstone
+item.upgrade.network_interface.name=Upgrade d'interface réseau
+item.upgrade.dial_device.name=Upgrade d'interface de numérotation
+item.upgrade.program_interface.name=Upgrade d'interface programmable
+item.upgrade.upgrade.name=Upgrade de manipulateur de module
+item.upgrade.fluid.name=Upgrade de transfert de fluide
+item.upgrade.item.name=Upgrade de transfert d'objet
+item.upgrade.energy.name=Upgrade de transfert d'énergie
+
+# Upgrades
+item.portal_module.0.name=Destructeur de particules
+item.portal_module.0.desc=Empêche les particules d'être créées
+item.portal_module.1.name=Particules arc-en-ciel
+item.portal_module.1.desc=Chaque particule aura une couleur aléatoire
+item.portal_module.2.name=Silencieux de portail
+item.portal_module.2.desc=Rend le portail silencieux
+item.portal_module.3.name=Momentum
+item.portal_module.3.desc=Les entités gardent leur momentum
+item.portal_module.4.name=Camouflage de portail
+item.portal_module.4.desc=Rend le portail complètement invisible
+item.portal_module.5.name=Shader de particules
+item.portal_module.5.desc=Chaque particule aura une nuance alératoire
+item.portal_module.6.name=Orientation
+item.portal_module.6.desc=La direction à faire face à la téléportation
+item.portal_module.7.name=Chute amortie
+item.portal_module.7.desc=Annule les dégâts de chute
+enhancedportals.gui.facing.0=Nord
+enhancedportals.gui.facing.1=Est
+enhancedportals.gui.facing.2=Sud
+enhancedportals.gui.facing.3=Ouest
+
+# Creative Tab
+itemGroup.EnhancedPortals3=EnhancedPortals 3
+
+# GUI DBS
+enhancedportals.gui.dimensionalBridgeStabilizer=Stabilisateur de pont dimensionnel
+enhancedportals.gui.information=Information
+enhancedportals.gui.activePortals=Portails actifs
+enhancedportals.gui.instability=Instabilité
+enhancedportals.gui.powerModeNormal=Mode : Normal
+enhancedportals.gui.powerModeRisky=Mode : Risqué
+enhancedportals.gui.powerModeUnstable=Mode : Instable
+enhancedportals.gui.powerModeUnpredictable=Mode : Imprévisible
+
+# RF Tab
+enhancedportals.tab.redstoneFlux=Énergie
+enhancedportals.tab.redstoneFlux.maxPower=Énergie maximum :
+enhancedportals.tab.redstoneFlux.storedPower=Énergie stockée :
+enhancedportals.tab.redstoneFlux.powerUsage=Consommation :
+
+# GUI Portal Controller
+enhancedportals.gui.portalController=Contrôleur de portail
+enhancedportals.gui.uniqueIdentifier=Identifiant unique
+enhancedportals.gui.public=Public
+enhancedportals.gui.private=Privé
+enhancedportals.gui.noUidSet=Aucun IDU de défini
+
+# Private/Public Tip Tab
+enhancedportals.tab.privatePublic=Privé ou public ?
+enhancedportals.tab.privatePublic.info=<6>Public : <0>Autorise toutes les connexions<NL><6>Privé : <0>Autorise uniquement les connexions du même SPD
+
+# Glyphs Tab
+enhancedportals.tab.glyphs=Glyphes
+enhancedportals.tab.glyphs.info=// TODO
+
+# GUI Dialler
+enhancedportals.gui.dialDevice=Appareil de numérotation
+enhancedportals.gui.storedIdentifiers=Identifiants stockés
+enhancedportals.gui.terminate=Raccrocher
+enhancedportals.gui.dial=Appeler
+enhancedportals.gui.identifierCannotBeBlank=L'identifiant ne peut pas être vierge
+enhancedportals.gui.name=Nom
+enhancedportals.gui.identifierName=Nom d'identifiant
+enhancedportals.gui.manualEntry=Entrée manuelle
+enhancedportals.gui.delete=Supprimer
+enhancedportals.gui.edit=Modifier
+
+# GUI Dial Tab
+enhancedportals.tab.dialling=Appareil de numérotation
+enhancedportals.tab.dialling.info=// TODO
+
+# GUI Texture
+enhancedportals.gui.customIcon=Icône personnalisée
+enhancedportals.gui.facade=Façade
+enhancedportals.gui.frame=Châssis
+enhancedportals.gui.portal=Portail
+enhancedportals.gui.particle=Particules
+enhancedportals.gui.colour=Couleur
+enhancedportals.gui.red=Rouge
+enhancedportals.gui.green=Vert
+enhancedportals.gui.blue=Bleu
+enhancedportals.gui.textures=Textures
+
+# Colour Tip Tab
+enhancedportals.tab.colourTip=Mauvaises couleurs ?
+enhancedportals.tab.colourTip.info=Les couleurs sont ajoutées par multiplication et non par magie. Si vous débutez avec une texture jaune et que vous ajoutez du cyan, vous obtenez du vert. Pour résoudre ça, utilisez une texture de base la plus blanche/grise que vous pouvez trouver.
+
+# Custom Frame Textures
+enhancedportals.tab.frameCustomTexture=Texture personnalisée
+enhancedportals.tab.frameCustomTexture.info=Vous pouvez placer des textures de châssis personnalisées dans un pack de ressources pour être utilisables ici.
+
+# Custom Frame Textures
+enhancedportals.tab.portalCustomTexture=Texture personnalisée
+enhancedportals.tab.portalCustomTexture.info=Vous pouvez placer des textures de portail personnalisées dans un pack de ressources pour être utilisables ici.
+
+# GUI Module Manipulator
+enhancedportals.gui.moduleManipulator=Manipulateur de module
+enhancedportals.gui.modules=Modules de portail
+
+# GUI Network Interface
+enhancedportals.gui.networkInterface=Interface réseau
+enhancedportals.gui.networkIdentifier=Identifiant réseau
+enhancedportals.gui.networkInformation=Information du réseau
+enhancedportals.gui.networkedPortals=Portails réseautés
+enhancedportals.gui.notSet=Non définis
+
+# GUI Programmable Interface
+enhancedportals.gui.programmableInterface=Interface programmable
+enhancedportals.gui.errorLog=Log d'erreurs
+enhancedportals.gui.compile=Compiler
+
+# GUI Redstone
+enhancedportals.gui.redstoneInterface=Interface de redstone
+
+enhancedportals.gui.input=Entrée
+enhancedportals.gui.createPortalOnSignal=Créer le portail au signal
+enhancedportals.gui.removePortalOnSignal=Enlever le portail au signal
+enhancedportals.gui.createPortalOnPulse=Créer le portail à l'impulsion
+enhancedportals.gui.removePortalOnPulse=Enlever le portail à l'impulsion
+enhancedportals.gui.dialStoredIdentifier=Appeler l'identifiant spécifique
+enhancedportals.gui.dialRandomIdentifier=Appeler un identifiant au hasard
+enhancedportals.gui.dialStoredIdentifier2=Appeler l'identifiant spécifique (2)
+enhancedportals.gui.dialRandomIdentifier2=Appeler un identifiant au hasard (2)
+
+enhancedportals.gui.output=Sortie
+enhancedportals.gui.portalCreated=Portail créé
+enhancedportals.gui.portalRemoved=Portail enlevé
+enhancedportals.gui.portalActive=Portail actif
+enhancedportals.gui.portalInactive=Portail inactif
+enhancedportals.gui.entityTeleport=Portail touché par une entité
+enhancedportals.gui.playerTeleport=Portail touché par un joueur
+enhancedportals.gui.animalTeleport=Portail touché par un animal
+enhancedportals.gui.monsterTeleport=Portail touché par un monstre
+
+# GUI General
+enhancedportals.gui.initialized=Initialisé
+enhancedportals.gui.glyphs=Glyphes
+enhancedportals.gui.cancel=Annuler
+enhancedportals.gui.save=Sauvegarder
+enhancedportals.gui.reset=Réinitialiser
+enhancedportals.gui.clear=Vider
+enhancedportals.gui.random=Aléatoire
+enhancedportals.gui.add=Ajouter
+enhancedportals.gui.accept=Accepter
+enhancedportals.gui.clickToModify=Cliquer pour modifier
+enhancedportals.gui.uidInUse=Cet IDU est déjà utilisé
+
+# GUI ITM
+enhancedportals.gui.transferItem=Module de transfert d'objets
+
+# GUI FTM
+enhancedportals.gui.transferFluid=Module de transfert de fluide
+
+# GUI ETM
+enhancedportals.gui.transferEnergy=Module de transfert d'énergie
+
+# GUI Transfer
+enhancedportals.gui.sending=Envoi
+enhancedportals.gui.receiving=Réception
+
+# Errors
+enhancedportals.error=[Erreur] 
+enhancedportals.error.noUidSet=Vous devez définir un identifiant unique avant de faire ça
+enhancedportals.error.voidLinkCard=Cette carte n'est maintenant plus liée à un stabilisateur de pont dimensionnel valide
+enhancedportals.error.receivingPortalNotInitialized=Le portail de réception n'a pas été initialisé
+enhancedportals.error.sendingPortalNotInitialized=Le portail d'envoi n'a pas été initialisé
+enhancedportals.error.stabilizerNotFound=Le SPD n'a pas été trouvé. Insérez une nouvelle carte de localisation pour continuer
+enhancedportals.error.receivingPortalNoDialler=Vous ne pouvez pas appeler un portail qui n'a pas un appareil de numérotation
+enhancedportals.error.sendingPortalNoDialler=Vous ne pouvez pas appeler d'un portail qui n'a pas un appareil de numérotation
+enhancedportals.error.uniqueIdentifierNotSet=Vous ne pouvez pas appeler sans définir un identifiant unique
+enhancedportals.error.networkIdentifierNotSet=Vous ne pouvez pas appeler sans définir un identifiant réseau
+enhancedportals.error.dialDeviceNotFound=Vous ne pouvez pas appeler sans un appareil de numérotation
+enhancedportals.error.diallingPortalAlreadyActive=Vous ne pouvez pas appeler d'un portail qui a déjà une connexion active
+enhancedportals.error.receivingPortalAlreadyActive=Vous ne pouvez pas appeler un portail qui est déjà actif
+enhancedportals.error.notEnoughPowerToStart=Il n'y pas assez d'énergie dans le SPD pour créer une connexion
+enhancedportals.error.maxedConnectionLimit=Le SPD possède trop de connexions actifs
+enhancedportals.error.cannotDialDiallingPortal=Vous ne pouvez pas appeler le même portail où vous appelez
+enhancedportals.error.diallingPortalNotFound=Impossible de localiser le portail d'où vous appelez
+enhancedportals.error.receivingPortalNotFound=Impossible de localiser le portail de réception
+enhancedportals.error.notOnSameStabilizer=Les portails ne sont pas connectés au même SPD
+enhancedportals.error.sendingPortalFailedToCreatePortal=Le contrôleur de portail d'envoi a échoué de créer un portail
+enhancedportals.error.receivingPortalFailedToCreatePortal=Le contrôleur de portail de réception a échoué de créer un portail
+enhancedportals.error.noPortalWithThatIdentifierReceiving=Impossible de trouver un portail de réception avec cet IDU
+enhancedportals.error.noPortalWithThatIdentifierSending=Impossible de trouver un portail d'envoi avec cet IDU (Comment t'as appelé...? o_O)
+enhancedportals.error.failedToTransfer=Le portail de réception est trop petit
+enhancedportals.error.multiplePortalControllers=Vous ne pouvez pas avoir plusieurs contrôleurs de portail
+enhancedportals.error.multipleProgram=Vous ne pouvez pas avoir plusieurs interfaces programmable
+enhancedportals.error.multipleMod=Vous ne pouvez pas avoir plusieurs manipulateurs de module
+enhancedportals.error.dialAndNetwork=Vous ne pouvez pas avoir un appareil de numérotation et une interface réseau dans la même structure de portail
+enhancedportals.error.portalCouldNotBeCreatedHere=Un portail ne peut pas être créé à cet endroit
+enhancedportals.error.failedToCreatePortal=Un portail ne peut pas être créé à cet endroit
+enhancedportals.error.couldNotCreatePortalHere=Un portail ne peut pas être créé à cet endroit
+
+# Success
+enhancedportals.success=[Succès] 
+enhancedportals.success.create=Portail initialisé
+enhancedportals.success.reconfigure=Portail reconfiguré
+
+############
+## Manual ##
+############
+
+enhancedportals.manual.decorBorderedQuartz.subtitle=Décoratif
+enhancedportals.manual.dbsEmpty.title=Stabilisateur de pont dimensionnel (vide)
+enhancedportals.manual.upgrade0.subtitle=Upgrade de portail
+enhancedportals.manual.module0.subtitle=Module de portail
+enhancedportals.manual.frame0.subtitle=Composant de portail
+
+## "Title" Page
+enhancedportals.manual.subject.title=Enhanced Portals
+enhancedportals.manual.subject.sub=Tunnelage de trous de ver
+
+## Table of Contents
+enhancedportals.manual.table_of_contents.title=Table des matières
+
+## Chapter Item Gallery Title
+enhancedportals.manual.gallery.title=Galerie d'objets
+
+## Chapter 1:
+enhancedportals.manual.chapter.0.title=Préface
+enhancedportals.manual.chapter.0.p.0=Les particules subatomiques de la vie et de l'espace sont maintenant facilement manipulées. Nous avons appris à les tisser comme de la soie fine pour nous afin d'en récolter les bénéfices. Avec ces concepts à la tête, nous pouvons maintenant créer des harnais, pour que des micro trous de ver creusent des tunnels entre l'espace et les dimensions.
+
+## Chapter 2:
+enhancedportals.manual.chapter.1.title=Les bases
+enhancedportals.manual.chapter.1.p.0=Les principes derrière la canalisation d'un trou de ver débute avec la construction d'un stabilisateur de pont dimensionnel. Cet appareil vous permettra de maintenir et transporter de la bio-information sur de grandes distances.
+enhancedportals.manual.chapter.1.p.1=Pour maintenir un trou de ver, vous aurez besoin de créer un châssis qui peut supporter et encapsuler un formation de trou de ver. Ils sont connus en tant que châssis de portail.
+enhancedportals.manual.chapter.1.p.2=Finalement, vous aurez besoin d'une méthode qui formera le portail. Cela peut être n'importe quoi, du simple bouton jusqu'à un appareil de numérotation.
+
+## Chapter 3:
+enhancedportals.manual.chapter.2.title=Stabiliser les dimensions
+enhancedportals.manual.chapter.2.p.0=Le stabilisateur de pont dimensionnel permet plusieurs trous de ver simultanés d'être créés dépendant de son volume.
+enhancedportals.manual.chapter.2.p.1=Pour créer un SPD, placez 12 blocs de stabilisateur de pont dimensionnel dans une configuration de 2 de haut, 3 de large et 2 de long (2x3x2), ou 2 de haut, 3 de large et 3 de long, puis faites un clic droit sur n'importe quel bloc avec une clé. Si c'est configuré correctement, un SPD fonctionnel se formera.
+enhancedportals.manual.chapter.2.p.2=Chaque niveau d'un SPD vous permettra de maintenir 2 portails de plus et vous pouvez créer jusqu'à 256 niveaux d'un simple SPD. Vous ne pouvez pas ajouter de niveaux supplémentaires une fois le SPD formé, donc planifiez en conséquence ou vous auriez peut-être à lier de nouveau tout portail préexistant si vous enlevez le SPD. Un SPD peut contenir une charge d'environ 15,000 RF par niveau, et va dépenser de son stockage alors que les portails seront utilisés. Si vous choisissez de minimiser le niveau d'énergie que le SPD utilise pour nourrir les trous de ver, cela résultera à de l'instabilité. L'instabilité à travers d'un trou de ver apporte d'obscurs effets secondaires, et le réarrangement moléculaire n'a pas été sans précédent.
+
+## Chapter 4:
+enhancedportals.manual.chapter.3.title=Construire le harnais
+enhancedportals.manual.chapter.3.p.0=Le défi de garder un trou de ver maîtrisé dans une dimension peut être surmonté avec l'utilisation des châssis de portail. Un châssis de portail est configuré en grande partie de la même manière que l'ancien prototype pour le voyage interdimensionnel : le portail du Nether en obsidienne. Un portail peut seulement être formé s'il y a des blocs formant une forme fermée sur une zone plate et ce, de manière horizontale ou verticale.
+enhancedportals.manual.chapter.3.p.1=Pour que le châssis de portail intéragisse avec le SPD, un contrôleur de portail doit être utilisé. Ce contrôleur peut être placé le long de n'importe quelle partie du portail, tant que le bloc est contre le seuil de l'endroit où vous planifiez ouvrir le trou de ver. Une fois que vous avez placé votre contrôleur, vous aurez besoin de lier manuellement le portail avec un SPD en créant une carte de localisation, en la plaçant dans un SPD, et aussitôt qu'elle est définie, en faisant clic droit avec contre un contrôleur de portail pour initialiser le châssis de portail. Si vous avez configuré le portail correctement, le portail va se lier et vous pouvez accéder au contrôleur avec une clé pour configurer son identifiant unique. L'IDU est une adresse qui doit être unique à ce portail. Si vous déconstruisez le contrôleur du portail, le lien avec le SPD sera perdu et vous aurez à rétablir le lien avec un autre avant qu'il ne s'active de nouveau.
+enhancedportals.manual.chapter.3.p.2=Il y a deux façons pour les portails d'envoyer et de recevoir des données de chacun d'eux. La première est d'être connecté à un réseau, et pour ce faire, vous devez inclure un autre type de bloc de châssis appelé l'interface réseau. Ce bloc vous permet d'accéder à un composeur de jonction. Appelez simplement dans un ID de réseau spécifique (IDDR) et ces portails sur le réseau spécifié vont lier leurs trous de ver à chacun d'eux.
+enhancedportals.manual.chapter.3.p.3=Après avoir reconfiguré un portail, vous aurez besoin de le réinitialiser en faisant un clic droit sur n'importe quel bloc de portail connecté avec une clé.
+
+## Chapter 5:
+enhancedportals.manual.chapter.4.title=Allumage d'un trou noir
+enhancedportals.manual.chapter.4.p.0=Pour finalement initier un lien de trou de ver, vous aurez besoin d'une interface de redstone. L'interface de redstone est un bloc de châssis de portail qui vous permettra d'intéragir avec votre châssis de portail. Après avoir intégré le bloc à votre structure, faites un clic droit avec une clé pour accéder aux différentes façons que la redstone peut intéragir avec un portail.
+enhancedportals.manual.chapter.4.p.1=La façon la plus simple d'initier un portail est de fabriquer un piton, de le placer directement sur l'interface de redstone, et de changer les options de l'IR à "Entrée" et "Créer un portail sur impulsion". En utilisant l'interface de redstone, vous avez à votre disposition une pléthore de façons de contrôler les portails à distance, et vous pouvez placer autant d'interface de redstone à votre châssis de portail que vous le désirez, donc explorez et, plus important encore, expérimentez.
+
+## Chapter 6:
+enhancedportals.manual.chapter.5.title=Appeler à la maison
+enhancedportals.manual.chapter.5.p.0=Les portails ont une seconde façon de communiquer entre eux, et c'est à travers un appareil de numérotation. Un appareil de numérotation est un bloc de châssis de portail qui vous permet d'entrer l'IDU d'un autre portail et d'établir un trou de ver avec lui. Au moyen de ça, vous pouvez également appeler les portails à l'extérieur de votre réseau de SPD si le portail que vous essayez de vous connecter est défini à "Public" dans son contrôleur de portail. Autrement, seuls les portails résautés à travers le même SPD peuvent les accéder. Garder à l'esprit que vous pouvez seulement lier 2 portails de cette façon, et à moins que vous mettez fin à la connexion, les autres portails ne peuvent pas appeler ce portail, sans mentionner le drain sur le SPD. Je suis sûr que vous pouvez penser à un circuit de redstone qui peut automatiquement y mettre fin pour vous.
+
+## Chapter 7:
+enhancedportals.manual.chapter.6.title=Accessoirisation
+enhancedportals.manual.chapter.6.p.0=L'intégration est un facteur clé lors de la mise en place de votre antre malveillant, complet avec une salle de trou noir multiportails, et donc, il y a quelques façon de personnaliser vos portails, et ce que vous pouvez transporter à travers eux.
+enhancedportals.manual.chapter.6.p.1=Faire un clic droit sur un portail avec une brosse nano vous permettra d'accéder à l'écran de personnalisation du portail et de son châssis. Là, vous pouvez ajuster la couleur du portail, changer le look des blocs de portail, et choisir quelles particules votre portail affichera.
+enhancedportals.manual.chapter.6.p.2=Pour une personnalisation encore plus avancée, un bloc de manipulateur de module peut se fabriquer. Intégré avec un châssis de portail, le portail est maintenant prêt d'accepter des modules spéciaux qui sont fabriqués à partir de modules vierges. Ces modules spéciaux font des choses allant de rendre votre portail invisible jusqu'à indiquer dans quelle direction vous êtes orienté lors de la sortie d'un trou de ver.
+enhancedportals.manual.chapter.6.p.3=L'intégration avec d'autres formes de technologie était requise, alors nous avons autorisé quelques blocs spéciaux pour être fabriqués : les blocs de châssis de portail de transfert d'objet, de fluide et d'énergie. Ces blocs permettent aux portails d'être plus flexibles avec le transfert des choses, autre que les joueurs, les mobs et les animaux.
+
+
+######################
+## ITEM INFORMATION ##
+######################
+
+enhancedportals.manual.wrench.info=Faites un clic droit sur un ensemble de SPD pour qu'il se change en SPD. Peut également démonter les blocs en faisant clic droit tout en étant accroupi(e) sur les objets de portail. Utilisez sur les blocs de module de portail pour accéder à leur interface. Une clé de Buildcraft ou de Thermal Expansion peut également être utilisée.
+enhancedportals.manual.nanobrush.info=Un objet très dangereux. Utilisez sur un châssis de portail pour activer son interface de personnalisation. Ne l'utilisez pas dans vos cheveux !
+enhancedportals.manual.glasses.info=Lorsque portées, révèlent les modules de châssis de portail pour une configuration plus facile.
+enhancedportals.manual.location_card.info=Utilisée pour lier un contrôleur de portail avec im SPD. Placez simplement une carte dans un SPD, et faites un clic droit sur un contrôleur de portail. Peut être sauvegardée et réutilisée pour lier plusieurs portails au même SPD.
+enhancedportals.manual.dbs.info=Stabilise un point fixé dans une dimension pour que la création de trou de ver et le transfert de données peuvent survenir. Utilisez du RF pour stabiliser. Créez un SPD en plaçant les blocs de SPD en ensembles de 2x3x2 ou 3x3x2 et faites un clic droit avec une clé.
+enhancedportals.manual.frame0.info=Le bloc de châssis fondamental, capable de former et d'encapsuler un trou de ver.
+enhancedportals.manual.frame1.info=Le contrôleur de châssis est utilisé pour établir un lien avec le SPD. Une fois lié via une carte de localisation, le contrôleur ne doit pas être déplacé. S'il est démonté, vous aurez besoin de refaire le lien. Vous pouvez choisir de garder un portail privé, où seuls les portails du même SPD peut y accéder, ou le rendre public.
+enhancedportals.manual.frame2.info=Une interface de redstone permettra l'accès à l'automatisation de certaines tâches via la redstone. Fabriquez et placez simplement quelque part le long du châssis. Plusieurs interfaces peuvent être placées sur un châssis pour donner plus d'options.
+enhancedportals.manual.frame3.info=Les interfaces réseau permettent à 2 portails ou plus de se connecter entre eux à travers un réseau. Entrez simplement un ID de réseau sur un portail et le même IDDR sur un autre, et ils se lieront. Les portails qui sont définis sur "Privé" ne seront pas capables d'accéder aux portails qui ne sont pas sur leur SPD.
+enhancedportals.manual.frame4.info=Le module d'appareil de numérotation vous permet d'établir un lien à un autre portail sans le besoin d'un réseau. Vous pouvez aussi enregistrer les IDU d'autres portails comme clavier de numérotation (maintenez Maj pour supprimer). Les portails qui sont définis sur "Privé" ne seront pas capables d'accéder aux portails qui ne sont pas sur leur SPD.
+enhancedportals.manual.frame6.info=Un manipulateur de module est un châssis qui permettra à un portail d'intéragir avec des puces de module. Ces puces peuvent être fabriquées et placées dans le manipulateur de module pour faire une foule de choses, en allant de rendre un portail silencieux jusqu'à rendre le portail invisible.
+enhancedportals.manual.frame7.info=Ce module vous permet de téléporter des fluides à une destination qui a un autre module de transfert de fluide.
+enhancedportals.manual.frame8.info=Ce module vous permet de téléporter des objets à une destination qui a un autre module de transfert d'objets.
+enhancedportals.manual.frame9.info=Ce module vous permet de téléporter de l'énergie à une autre destination qui a un autre module de transfert d'énergie.
+enhancedportals.manual.blank_module.info=Le module de circuit de fondation. Cet objet est requis pour fabriquer les autres modules et le manipulateur de module.
